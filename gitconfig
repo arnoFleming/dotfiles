@@ -10,8 +10,9 @@
   remote = yellow
 
 [core]
+  excludesfile = /home/arno/.cvsignore
   pager = less -FRSX
-	editor = subl -n -w  >/dev/null 2>&1
+  editor = vim ;subl -n -w  >/dev/null 2>&1
 
 [alias]
   co = checkout
@@ -42,10 +43,10 @@
   autocorrect = 1
 
 [push]
-	default = simple
+  default = simple
 
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = arno.fleming@gmail.com
-	name = Arno Fleming
+  email = arno.fleming@gmail.com
+  name = Arno Fleming

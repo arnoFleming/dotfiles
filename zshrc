@@ -2,10 +2,11 @@ ZSH=$HOME/.oh-my-zsh
 
 # You can change the theme with another one:
 #   https://github.com/robbyrussell/oh-my-zsh/wiki/themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="frisk"
 
 # Add ruby version on prompt (float right)
-if [ -x "$(command -v rbenv)" ]; then RPS1='[$(ruby_prompt_info)]$EPS1'; fi
+# if [ -x "$(command -v rbenv)" ]; then RPS1='[$(ruby_prompt_info)]$EPS1'; fi
 
 plugins=(gitfast rbenv last-working-dir common-aliases zsh-syntax-highlighting history-substring-search tmux)
 
